@@ -26,7 +26,7 @@ function init(){
 	registerFramework(UIFramework,"UI");
 	registerFramework(AssetsFramework,"A");
 	registerFramework(DrawingFramework,"D");
-	window.addEventListener("touchmove",function(e){e.preventDefault();});
+	//window.addEventListener("touchmove",function(e){e.preventDefault();});
 	//makeShortcut(new AFr.Manager(),"A");
 	makeShortcut(new UI.DBox(0,0,800,600), "U");
 	A.loadImage("shipbase","ShipBase.png");
