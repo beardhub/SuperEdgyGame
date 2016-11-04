@@ -155,8 +155,8 @@ function WittleBittySquare(){
 		//g.fillRect(this.x,this.y,10,10);
 		spr.render(g);
 		g.font = "15px Arial";
-		g.fillText("score   "+score, this.x-30, this.y);
-		g.fillText("hiscore "+high, this.x-30, this.y+15);
+		g.fillText("score   "+score, 10, 15);//this.x-30, this.y);
+		g.fillText("hiscore "+high, 10, 30);//this.x-30, this.y+15);
 	/*if (typeof dt == "string"){
 		g.textAlign = "center";
 		g.textBaseline = "middle";
